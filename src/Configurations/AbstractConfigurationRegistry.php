@@ -16,16 +16,16 @@ abstract class AbstractConfigurationRegistry extends OriginAbstractConfiguration
 	 * Stores the path of the `SentryClient` configuration.
 	 * @var string
 	 */
-	private $sentryClientConfigurationPath = '';
+	private string $sentryClientConfigurationPath = '';
 
 	/**
 	 * Stores the `SentryClient` configuration.
 	 * @var SentryClientConfigurationInterface
 	 */
-	private $sentryClientConfiguration;
+	private SentryClientConfigurationInterface $sentryClientConfiguration;
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function setSentryClientConfigurationPath( string $path ): void
 	{
@@ -33,7 +33,7 @@ abstract class AbstractConfigurationRegistry extends OriginAbstractConfiguration
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getSentryClientConfiguration(): SentryClientConfigurationInterface
 	{

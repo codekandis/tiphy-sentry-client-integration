@@ -18,7 +18,7 @@ class InternalServerErrorThrowableHandler implements ThrowableHandlerInterface
 	 * Stores the `SentryClient`.
 	 * @var SentryClientInterface
 	 */
-	private $sentryClient;
+	private SentryClientInterface $sentryClient;
 
 	/**
 	 * Constructor method.
