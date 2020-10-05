@@ -12,7 +12,7 @@ use CodeKandis\Tiphy\Configurations\AbstractConfiguration;
 class SentryClientConfiguration extends AbstractConfiguration implements SentryClientConfigurationInterface
 {
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getDsn(): string
 	{
@@ -20,7 +20,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getErrorTypes(): ?int
 	{
@@ -28,7 +28,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getDisplayErrors(): bool
 	{
@@ -36,7 +36,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getRelease(): ?string
 	{
@@ -44,7 +44,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getEnvironment(): ?string
 	{
@@ -52,7 +52,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getSampleRate(): ?float
 	{
@@ -60,7 +60,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getMaxBreadcrumbs(): ?int
 	{
@@ -68,7 +68,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getAttachStacktrace(): ?bool
 	{
@@ -76,7 +76,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getSendDefaultPii(): ?bool
 	{
@@ -84,7 +84,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getServerName(): ?string
 	{
@@ -92,7 +92,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getInAppExclude(): ?array
 	{
@@ -100,7 +100,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getRequestBodies(): ?string
 	{
@@ -108,7 +108,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getIntegrations(): ?string
 	{
@@ -116,7 +116,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getDefaultIntegrations(): ?bool
 	{
@@ -124,7 +124,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getBeforeSend(): ?callable
 	{
@@ -132,7 +132,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getBeforeBreadcrumb(): ?callable
 	{
@@ -140,7 +140,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getHttpProxy(): ?string
 	{
@@ -148,7 +148,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getCaptureSilencedErrors(): ?bool
 	{
@@ -156,7 +156,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getContextLines(): ?int
 	{
@@ -164,7 +164,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getEnableCompression(): ?bool
 	{
@@ -172,7 +172,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getExcludedAppPaths(): ?array
 	{
@@ -180,7 +180,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getExcludedExceptions(): ?array
 	{
@@ -188,7 +188,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getPrefixes(): ?array
 	{
@@ -196,7 +196,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getProjectRoot(): ?string
 	{
@@ -204,7 +204,7 @@ class SentryClientConfiguration extends AbstractConfiguration implements SentryC
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @inheritDoc
 	 */
 	public function getSendAttempts(): ?int
 	{
