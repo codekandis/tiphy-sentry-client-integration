@@ -38,6 +38,6 @@ abstract class AbstractConfigurationRegistry extends OriginAbstractConfiguration
 	public function getSentryClientConfiguration(): SentryClientConfigurationInterface
 	{
 		return $this->sentryClientConfiguration
-		       ?? $this->sentryClientConfiguration = new SentryClientConfiguration( $this->sentryClientConfigurationPath );
+			   ?? $this->sentryClientConfiguration = new SentryClientConfiguration( $this->sentryClientConfigurationPath );
 	}
 }
