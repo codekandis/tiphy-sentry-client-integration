@@ -13,31 +13,24 @@ use CodeKandis\TiphySentryClientIntegration\Throwables\SentryClientConfiguration
 abstract class AbstractConfigurationRegistry extends OriginAbstractConfigurationRegistry implements ConfigurationRegistryInterface
 {
 	/**
-	 * Stores the path of the `SentryClient` configuration.
-	 * @var string
-	 */
-	private string $sentryClientConfigurationPath = '';
-
-	/**
 	 * Stores the `SentryClient` configuration.
-	 * @var SentryClientConfigurationInterface
+	 * @var ?SentryClientConfigurationInterface
 	 */
-	private SentryClientConfigurationInterface $sentryClientConfiguration;
+	private ?SentryClientConfigurationInterface $sentryClientConfiguration = null;
 
 	/**
 	 * @inheritDoc
 	 */
-	public function setSentryClientConfigurationPath( string $path ): void
+	public function getSentryClientConfiguration(): ?SentryClientConfigurationInterface
 	{
-		$this->sentryClientConfigurationPath = $path;
+		return $this->sentryClientConfiguration;
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getSentryClientConfiguration(): SentryClientConfigurationInterface
+	public function setPlainSentryClientConfiguration( array $plainSentryClientConfiguration ): void
 	{
-		return $this->sentryClientConfiguration
-			   ?? $this->sentryClientConfiguration = new SentryClientConfiguration( $this->sentryClientConfigurationPath );
+		$this->sentryClientConfiguration = new SentryClientConfiguration( $plainSentryClientConfiguration );
 	}
 }
