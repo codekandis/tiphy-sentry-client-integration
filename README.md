@@ -5,7 +5,7 @@
 [![Minimum PHP Version][xtlink-php-version-badge]][xtlink-php-net]
 ![Code Coverage][xtlink-code-coverage-badge]
 
-`codekandis/tiphy-sentry-client-integration` is an integration of [`codekandis/sentry-client`][xtlink-github-codekandis-sentry-client] into [`codekandis/tiphy`][xtlink-github-codekandis-tiphy].
+This library is an integration of [`codekandis/sentry-client`][xtlink-github-codekandis-sentry-client] into [`codekandis/tiphy`][xtlink-github-codekandis-tiphy].
 
 ## Index
 
@@ -50,7 +50,7 @@ $actionDispatcher->dispatch();
 ```
 
 
-[xtlink-version-badge]: https://img.shields.io/badge/version-0.3.0-blue.svg
+[xtlink-version-badge]: https://img.shields.io/badge/version-0.4.0-blue.svg
 [xtlink-license-badge]: https://img.shields.io/badge/license-MIT-yellow.svg
 [xtlink-php-version-badge]: https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg
 [xtlink-code-coverage-badge]: https://img.shields.io/badge/coverage-100%25-green.svg
