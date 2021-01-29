@@ -4,21 +4,21 @@ namespace CodeKandis\TiphySentryClientIntegration\Configurations;
 use CodeKandis\SentryClient\Configurations\SentryClientConfigurationInterface;
 
 /**
- * Represents the interface of all configuration registries.
+ * Represents the interface of all configuration registries providing a `Sentry Client` configuration.
  * @package codekandis/tiphy-sentry-client-integration
  * @author Christian Ramelow <info@codekandis.net>
  */
 interface ConfigurationRegistryInterface
 {
 	/**
-	 * Sets the path of the `SentryClient` configuration.
-	 * @param string $path The path of the `SentryClient` configuration.
+	 * Gets the `SentryClient` configuration.
+	 * @return ?SentryClientConfigurationInterface The `SentryClient` configuration.
 	 */
-	public function setSentryClientConfigurationPath( string $path ): void;
+	public function getSentryClientConfiguration(): ?SentryClientConfigurationInterface;
 
 	/**
-	 * Gets the `SentryClient` configuration.
-	 * @return SentryClientConfigurationInterface The `SentryClient` configuration.
+	 * Sets the plain `SentryClient` configuration.
+	 * @param array $plainSentryClientConfiguration The plain `SentryClient` configuration.
 	 */
-	public function getSentryClientConfiguration(): SentryClientConfigurationInterface;
+	public function setPlainSentryClientConfiguration( array $plainSentryClientConfiguration ): void;
 }
