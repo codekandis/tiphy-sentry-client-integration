@@ -45,15 +45,15 @@ $throwableHandler    = new InternalServerErrorThrowableHandler(
 	)
 );
 
-$actionDispatcher = new ActionDispatcher( $routesConfiguration, $preDispatcher, $throwableHandler );
-$actionDispatcher->dispatch();
+( new ActionDispatcher( $routesConfiguration, $preDispatcher, $throwableHandler ) )
+->dispatch();
 ```
 
 
 [xtlink-version-badge]: https://img.shields.io/badge/version-0.4.0-blue.svg
 [xtlink-license-badge]: https://img.shields.io/badge/license-MIT-yellow.svg
 [xtlink-php-version-badge]: https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg
-[xtlink-code-coverage-badge]: https://img.shields.io/badge/coverage-100%25-green.svg
+[xtlink-code-coverage-badge]: https://img.shields.io/badge/coverage-0%25-red.svg
 [xtlink-php-net]: https://php.net
 [xtlink-github-codekandis-sentry-client]: https://github.com/codekandis/sentry-client
 [xtlink-github-codekandis-tiphy]: https://github.com/codekandis/tiphy
