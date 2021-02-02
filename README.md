@@ -45,8 +45,8 @@ $throwableHandler    = new InternalServerErrorThrowableHandler(
 	)
 );
 
-$actionDispatcher = new ActionDispatcher( $routesConfiguration, $preDispatcher, $throwableHandler );
-$actionDispatcher->dispatch();
+( new ActionDispatcher( $routesConfiguration, $preDispatcher, $throwableHandler ) )
+->dispatch();
 ```
 
 
