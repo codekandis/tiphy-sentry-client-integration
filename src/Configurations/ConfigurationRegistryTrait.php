@@ -18,7 +18,7 @@ trait ConfigurationRegistryTrait
 	private ?SentryClientConfigurationInterface $sentryClientConfiguration = null;
 
 	/**
-	 * @inheritDoc
+	 * {@inheritDoc}
 	 */
 	public function getSentryClientConfiguration(): ?SentryClientConfigurationInterface
 	{
@@ -26,7 +26,7 @@ trait ConfigurationRegistryTrait
 	}
 
 	/**
-	 * @inheritDoc
+	 * {@inheritDoc}
 	 */
 	public function setPlainSentryClientConfiguration( array $plainSentryClientConfiguration ): void
 	{
