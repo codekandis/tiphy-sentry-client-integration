@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.6.0] - 2021-03-19
+
+### Added
+
+* `500 Internal Server Error` handling for development purposes
+
+### Fixes
+
+* PHPDoc
+
+[0.6.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.5.0..0.6.0
+
+---
 ## [0.5.0] - 2021-02-02
 
 ### Added
