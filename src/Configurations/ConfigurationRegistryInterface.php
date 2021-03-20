@@ -2,13 +2,14 @@
 namespace CodeKandis\TiphySentryClientIntegration\Configurations;
 
 use CodeKandis\SentryClient\Configurations\SentryClientConfigurationInterface;
+use CodeKandis\Tiphy\Configurations\ConfigurationRegistryInterface as OriginConfigurationRegistryInterface;
 
 /**
  * Represents the interface of all configuration registries providing a `Sentry Client` configuration.
  * @package codekandis/tiphy-sentry-client-integration
  * @author Christian Ramelow <info@codekandis.net>
  */
-interface ConfigurationRegistryInterface
+interface ConfigurationRegistryInterface extends OriginConfigurationRegistryInterface
 {
 	/**
 	 * Gets the `SentryClient` configuration.
