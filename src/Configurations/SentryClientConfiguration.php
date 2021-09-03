@@ -1,5 +1,5 @@
 <?php declare( strict_types = 1 );
-namespace CodeKandis\TiphySentryClientIntegration\Throwables;
+namespace CodeKandis\TiphySentryClientIntegration\Configurations;
 
 use CodeKandis\SentryClient\Configurations\SentryClientConfigurationInterface;
 use CodeKandis\Tiphy\Configurations\AbstractConfiguration;

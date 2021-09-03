@@ -2,7 +2,6 @@
 namespace CodeKandis\TiphySentryClientIntegration\Configurations;
 
 use CodeKandis\SentryClient\Configurations\SentryClientConfigurationInterface;
-use CodeKandis\TiphySentryClientIntegration\Throwables\SentryClientConfiguration;
 
 /**
  * Represents the trait to integrate the `Sentry Client` configuration into a configuration registry.
