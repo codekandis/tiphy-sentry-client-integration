@@ -5,7 +5,7 @@
 [![Minimum PHP Version][xtlink-php-version-badge]][xtlink-php-net]
 ![Code Coverage][xtlink-code-coverage-badge]
 
-`codekandis/tiphy-sentry-client-integration` is an integration of [`codekandis/sentry-client`][xtlink-github-codekandis-sentry-client] into [`codekandis/tiphy`][xtlink-github-codekandis-tiphy].
+`codekandis/tiphy-sentry-client-integration` is a library to integrate [`codekandis/sentry-client`][xtlink-github-codekandis-sentry-client] into [`codekandis/tiphy`][xtlink-github-codekandis-tiphy].
 
 ## Index
 
@@ -61,4 +61,4 @@ $throwableHandler    = new InternalServerErrorThrowableHandler(
 
 [srclink-changelog]: ./CHANGELOG.md
 [srclink-license]: ./LICENSE
-[srclink-throwable-handler]: ./LICENSE
+[srclink-throwable-handler]: ./src/Throwables/Handlers/InternalServerErrorThrowableHandler.php
