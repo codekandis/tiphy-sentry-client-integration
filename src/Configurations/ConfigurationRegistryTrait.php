@@ -23,12 +23,4 @@ trait ConfigurationRegistryTrait
 	{
 		return $this->sentryClientConfiguration;
 	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function setPlainSentryClientConfiguration( array $plainSentryClientConfiguration ): void
-	{
-		$this->sentryClientConfiguration = new SentryClientConfiguration( $plainSentryClientConfiguration );
-	}
 }
