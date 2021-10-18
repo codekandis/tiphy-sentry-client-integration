@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.8.0] - 2021-10-18
+
+### Changed
+
+* implemented `codekandis/configurations` to replace configuration implementations
+
+[0.8.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.7.1..0.8.0
+
+---
 ## [0.7.1] - 2021-09-03
 
 ### Fixed
