@@ -1,8 +1,9 @@
 {
 	"name": "codekandis/tiphy-sentry-client-integration",
-	"description": "This library is an integration of `codekandis/sentry-client` into `codekandis/tiphy`.",
+	"description": "`codekandis/tiphy-sentry-client-integration` is a library to integrate `codekandis/sentry-client` into `codekandis/tiphy`.",
 	"keywords": [
 		"php",
+		"library",
 		"tiphy",
 		"sentry",
 		"client",

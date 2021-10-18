@@ -4,7 +4,7 @@ namespace CodeKandis\TiphySentryClientIntegration\Configurations;
 use CodeKandis\SentryClient\Configurations\SentryClientConfigurationInterface;
 
 /**
- * Represents the trait to integrate the `Sentry Client` configuration into a configuration registry.
+ * Represents the trait to integrate a `Sentry Client` configuration into a configuration registry.
  * @package codekandis/tiphy-sentry-client-integration
  * @author Christian Ramelow <info@codekandis.net>
  */
@@ -22,13 +22,5 @@ trait ConfigurationRegistryTrait
 	public function getSentryClientConfiguration(): ?SentryClientConfigurationInterface
 	{
 		return $this->sentryClientConfiguration;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function setPlainSentryClientConfiguration( array $plainSentryClientConfiguration ): void
-	{
-		$this->sentryClientConfiguration = new SentryClientConfiguration( $plainSentryClientConfiguration );
 	}
 }
