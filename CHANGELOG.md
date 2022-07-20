@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.10.0] - 2022-07-20
+
+### Changed
+
+* implements latest composer package dependency changes
+
+[0.10.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.9.0...0.10.0
+
+---
 ## [0.9.0] - 2021-10-18
 
 ### Removed
@@ -16,7 +25,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 * `composer.json`
 * `README.md`
 
-[0.9.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.8.0..0.9.0
+[0.9.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.8.0...0.9.0
 
 ---
 ## [0.8.0] - 2021-10-18
@@ -25,7 +34,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * implemented `codekandis/configurations` to replace configuration implementations
 
-[0.8.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.7.1..0.8.0
+[0.8.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.7.1...0.8.0
 
 ---
 ## [0.7.1] - 2021-09-03
@@ -34,7 +43,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * namespace of the sentry client configuration
 
-[0.7.1]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.7.0..0.7.1
+[0.7.1]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.7.0...0.7.1
 
 ---
 ## [0.7.0] - 2021-03-20
@@ -47,7 +56,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * inheritance of `ConfigurationRegistryInterface`
 
-[0.7.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.6.0..0.7.0
+[0.7.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.6.0...0.7.0
 
 ---
 ## [0.6.0] - 2021-03-19
@@ -60,7 +69,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * PHPDoc
 
-[0.6.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.5.0..0.6.0
+[0.6.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.5.0...0.6.0
 
 ---
 ## [0.5.0] - 2021-02-02
@@ -69,7 +78,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 
 * configuration registry trait implementing the `ConfigurationRegistryInterface`
 
-[0.5.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.4.0..0.5.0
+[0.5.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.4.0...0.5.0
 
 ---
 ## [0.4.0] - 2021-01-29
@@ -79,7 +88,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 * configuration instantiation
 * `README.md`
 
-[0.4.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.3.0..0.4.0
+[0.4.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.3.0...0.4.0
 
 ---
 ## [0.3.0] - 2021-01-27
@@ -103,7 +112,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
 * `REAMDE.md`
 * `CHANGELOG.md`
 
-[0.3.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.2.0..0.3.0
+[0.3.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.2.0...0.3.0
 
 ---
 ## [0.2.0] - 2020-10-05
@@ -115,7 +124,7 @@ and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioni
     * `php` [^7.4]
 * refactored source code `PHP 7.4` compliant
 
-[0.2.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.1.0..0.2.0
+[0.2.0]: https://github.com/codekandis/tiphy-sentry-client-integration/compare/0.1.0...0.2.0
 
 ---
 ## [0.1.0] - 2020-02-02
